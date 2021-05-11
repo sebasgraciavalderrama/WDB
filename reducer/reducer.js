@@ -8,7 +8,7 @@ console.log(prices.reduce(reducer))
 //To get the min value...
 
 const reducerMin = (min, currentPrice) => {
-  if (prince > min) {
+  if (prince < min) {
     return price
   }
   return min;
