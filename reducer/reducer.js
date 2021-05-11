@@ -15,3 +15,6 @@ const reducerMin = (min, currentPrice) => {
 }
 
 prices.reduceMin(reducerMin);
+
+const evens = [2, 4, 6, 8]
+evens.reduce((sum, num) => sum + num, 100)
